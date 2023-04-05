@@ -1,0 +1,37 @@
+@import "~bootstrap/scss/bootstrap";
+@import "rule/global";
+@import "rule/variables";
+@import "rule/mixin";
+@import "rule/reset";
+@import "common/blogItem";
+@import "common/clinicCard";
+@import "common/doctorInfo";
+@import "shared/loading";
+@import "layout/breadcrumb";
+@import "layout/header";
+@import "layout/footer";
+@import "page/aboutUs";
+@import "page/home";
+@import "page/login";
+@import "page/detailClinic";
+@import "page/profile";
+@import "common/timeSlotRadioGroup";
+@import 'react-toastify/dist/ReactToastify.css';
+@import "page/clinic";
+.App{
+  position: relative;
+
+  .containerBody{
+    position: relative;
+
+    .ant-skeleton{
+      display: none; 
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+   }
+  }
+}
+
+
+
